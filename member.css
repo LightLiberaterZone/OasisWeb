@@ -1,0 +1,196 @@
+@font-face {
+    font-family:et;
+    src:url('data/Eternate_Bold.otf');
+}
+
+body {
+  overflow-x:hidden;
+}
+::-webkit-scrollbar {
+  width: 0px;
+  }
+
+#noelvid {
+    position:absolute;
+    left :0px;
+    top :0px;
+    width:100%;
+    transition:all 0.5s ease-in;
+  }
+  
+  #noelname {
+    position:absolute;
+    left: 1100px;
+    top: 40px;
+    font-size:70px;
+    font-family:et;
+    color:white;
+    letter-spacing:-2px;
+    -webkit-text-stroke-width: 0px;
+    -webkit-text-stroke-color: black;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    z-index:10;
+  }
+  
+  #noelpos {
+    position:absolute;
+    left: 1080px;
+    top: 180px;  
+    color:white;
+    font-size:20px;
+    font-family:ul;
+    font-style:thin;
+    -webkit-text-stroke-width: 0px;
+    -webkit-text-stroke-color: black;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-right: 50px;
+    letter-spacing:-1px;
+    font-style:thin;
+    transition : transform 1s;
+    z-index:10;
+  }
+  
+  #noelpos:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+  }
+  #noelpos:hover~#noelvid {
+    filter:brightness(50%);
+  }
+  
+  
+  #blackback {
+    position:absolute;
+    opacity:0.3;
+    background-color: black;
+    width:50%;
+    height:1080px;
+    left:1500px;
+    top:0px;
+    transform: translate(-50%);
+    z-index:10;
+  }
+  
+  #liamvid {
+    position:absolute;
+    left :0px;
+    top :0px;
+    transition:all 0.5s ease-in;
+    width:100%;
+  }
+  
+  #liamname {
+    position:absolute;
+    left : 30px;
+    top :60px;
+    color:white;
+    font-size:70px;
+    font-family:et;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    letter-spacing : -2px;
+    color:white;
+    z-index:10;
+  }
+  
+  #liampos {
+    position:absolute;
+    left: 70px;
+    top: 190px;  
+    color:white;
+    font-size:20px;
+    font-family:ul;
+    -webkit-text-stroke-width: 0px;
+    -webkit-text-stroke-color: black;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-right : 1100px;
+    letter-spacing : -1px;
+    transition : transform 1s;
+    z-index:10;
+  }
+  #liampos:hover {
+    ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1); 
+  }
+  #liampos:hover~#liamvid {
+    filter:brightness(50%);
+  }
+  
+  #bandpic{
+    position : absolute;
+    left:0px;
+    top:0px;
+    width:100%;
+  }
+  
+  #elsetitle {
+    position:absolute;
+    left : 190px;
+    top :50px;
+    color:white;
+    font-size:70px;
+    font-family:et;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    letter-spacing : -2px;
+    color:white;
+    -webkit-text-stroke-width: 0px;
+    -webkit-text-stroke-color: yellow;
+  }
+  
+  #elsepos {
+    position:absolute;
+    left: -40px;
+    top: 150px;  
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-right : 1170px;
+    letter-spacing : -1px;
+    transition : transform 1s;
+  }
+
+  
+  #blackback2 {
+    position:absolute;
+    opacity:0.5;
+    background-color: black;
+    width:85%;
+    height:1220px;
+    left:0px;
+    top:0px;
+    transform: translate(-50%);
+  }
+
+  #goback{
+    position:absolute;
+    left: 1700px;
+    top: 2720px;  
+    color:white;
+    font-size:30px;
+    font-family:et;
+    -webkit-text-stroke-width: 0px;
+    -webkit-text-stroke-color: black;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    letter-spacing : -1px;
+    transition : transform 1s;
+  }

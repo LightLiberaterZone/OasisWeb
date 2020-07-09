@@ -1,0 +1,351 @@
+#dmtit {
+    font-family : et;
+    font-size : 60px;
+    color:white;
+    position : absolute;
+    top : 20px;
+    left : 50%;
+    transform : translate(-50%);
+    z-index:1;
+    user-select: none;
+}
+
+#dmtit:hover~#dm {
+    filter: brightness(50%);
+}
+
+#dmlist {
+    font-family : et;
+    font-size : 40px;
+    color:white;
+    position : absolute;
+    top : 150px;
+    left : 50%;
+    transform : translate(-50%);
+    z-index:2;
+    user-select: none;
+}
+#dmlist:hover+#dm{
+    filter: brightness(50%);
+}
+
+#dm {
+    position :absolute;
+    top :0px;
+    left:0px;
+    transition:  all 1s ease;
+    z-index:0;
+    user-select: none;
+    pointer-events: none;
+}
+
+
+#mgtit {
+    font-family : kh;
+    font-size : 50px;
+    color:white;
+    position : absolute;
+    top : 20px;
+    left : 50%;
+    transform : translate(-50%);
+    z-index:1;
+    user-select: none;
+    letter-spacing : -2px;
+}
+
+#mgtit:hover~#mg {
+    filter: brightness(50%);
+}
+
+#mglist {
+    font-family : kh;
+    font-size : 30px;
+    color:white;
+    position : absolute;
+    top : 150px;
+    left : 50%;
+    transform : translate(-50%);
+    z-index:2;
+    user-select: none;
+    letter-spacing : -1px;
+}
+#mglist:hover+#mg{
+    filter: brightness(50%);
+}
+
+#mg {
+    position :absolute;
+    top :0px;
+    left:0px;
+    transition:  all 1s ease;
+    z-index:0;
+    user-select: none;
+    pointer-events: none;
+}
+
+#bhtit {
+    font-family :bf;
+    font-size : 70px;
+    color:white;
+    position : absolute;
+    top : 20px;
+    left : 50%;
+    transform : translate(-50%);
+    z-index:1;
+    user-select: none;
+    letter-spacing : -2px;
+}
+
+#bhtit:hover~#bh {
+    filter: brightness(50%);
+}
+
+#bhlist {
+    font-family : bf;
+    font-size : 40px;
+    color:white;
+    position : absolute;
+    top : 150px;
+    left : 50%;
+    transform : translate(-50%);
+    z-index:2;
+    user-select: none;
+    letter-spacing : -1px;
+}
+#bhlist:hover+#bh{
+    filter: brightness(50%);
+}
+
+#bh {
+    position :absolute;
+    top :0px;
+    left:0px;
+    transition:  all 1s ease;
+    z-index:0;
+    user-select: none;
+    pointer-events: none;
+}
+
+#sttit {
+    font-family :sp;
+    font-size : 60px;
+    color:white;
+    position : absolute;
+    top : 20px;
+    left : 50%;
+    transform : translate(-50%);
+    z-index:1;
+    user-select: none;
+    letter-spacing : -2px;
+    margin-right:-100px
+}
+
+#sttit:hover~#st {
+    filter: brightness(50%);
+}
+
+#stlist {
+    font-family : sp;
+    font-size : 40px;
+    color:white;
+    position : absolute;
+    top : 150px;
+    left : 50%;
+    transform : translate(-50%);
+    z-index:2;
+    user-select: none;
+    letter-spacing : -1px;
+}
+#stlist:hover+#st{
+    filter: brightness(50%);
+}
+
+#st {
+    position :absolute;
+    top :0px;
+    left:0px;
+    transition:  all 1s ease;
+    z-index:0;
+    user-select: none;
+    pointer-events: none;
+}
+#hctit {
+    font-family :rs;
+    font-size : 60px;
+    color:white;
+    position : absolute;
+    top : 20px;
+    left : 50%;
+    transform : translate(-50%);
+    z-index:1;
+    user-select: none;
+    letter-spacing : -2px;
+    margin-right:-100px
+}
+
+#hctit:hover~#hc {
+    filter: brightness(50%);
+}
+
+#hclist {
+    font-family : rs;
+    font-size : 40px;
+    color:white;
+    position : absolute;
+    top : 150px;
+    left : 50%;
+    transform : translate(-50%);
+    z-index:2;
+    user-select: none;
+    letter-spacing : -1px;
+}
+#hclist:hover+#hc{
+    filter: brightness(50%);
+}
+
+#hc {
+    position :absolute;
+    top :0px;
+    left:0px;
+    transition:  all 1s ease;
+    z-index:0;
+    user-select: none;
+    pointer-events: none;
+}
+
+#dbtit {
+    font-family :am;
+    font-size : 60px;
+    color:white;
+    position : absolute;
+    top : 20px;
+    left : 50%;
+    transform : translate(-50%);
+    z-index:1;
+    user-select: none;
+    letter-spacing : -2px;
+    margin-right:-100px
+}
+
+#dbtit:hover~#db {
+    filter: brightness(50%);
+}
+
+#dblist {
+    font-family : am;
+    font-size : 27px;
+    color:white;
+    position : absolute;
+    top : 150px;
+    left : 50%;
+    transform : translate(-50%);
+    z-index:2;
+    user-select: none;
+    letter-spacing : -1px;
+}
+#dblist:hover+#db{
+    filter: brightness(50%);
+}
+
+#db {
+    position :absolute;
+    top :0px;
+    left:0px;
+    transition:  all 1s ease;
+    z-index:0;
+    user-select: none;
+    pointer-events: none;
+}
+
+#dotit {
+    font-family :it;
+    font-size : 80px;
+    color:white;
+    position : absolute;
+    top : 20px;
+    left : 50%;
+    transform : translate(-50%);
+    z-index:1;
+    user-select: none;
+    letter-spacing : -2px;
+    margin-right:-100px
+}
+
+#dotit:hover~#do {
+    filter: brightness(50%);
+}
+
+#dolist {
+    font-family : it;
+    font-size : 50px;
+    color:white;
+    position : absolute;
+    top : 150px;
+    left : 50%;
+    transform : translate(-50%);
+    z-index:2;
+    user-select: none;
+    letter-spacing : -1px;
+}
+#dolist:hover+#do{
+    filter: brightness(50%);
+}
+
+#do {
+    position :absolute;
+    top :0px;
+    left:0px;
+    transition:  all 1s ease;
+    z-index:0;
+    user-select: none;
+    pointer-events: none;
+}
+
+#main{
+    position:absolute;
+    left: 1700px;
+    top: 6480px;  
+    color:white;
+    font-size:30px;
+    font-family:et;
+    -webkit-text-stroke-width: 0px;
+    -webkit-text-stroke-color: black;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    letter-spacing : -1px;
+    transition : transform 1s;
+  }
+
+@font-face{
+    font-family:et;
+    src:url('data/Eternate_Bold.otf');
+}
+
+@font-face{
+    font-family:kh;
+    src:url('data/Khula-Bold.ttf');
+}
+@font-face{
+    font-family : bf;
+    src:url('data/Bellefair-Regular.ttf');
+}
+@font-face{
+    font-family : sp;
+    src:url('data/Sarpanch-Regular.ttf')
+}
+@font-face{
+    font-family : rs;
+    src:url('data/RacingSansOne-Regular.ttf')
+}
+@font-face{
+    font-family : am;
+    src:url('data/amita-bold.ttf')
+}
+@font-face{
+    font-family : it;
+    src:url('data/Italiana-Regular.ttf')
+}
+
+

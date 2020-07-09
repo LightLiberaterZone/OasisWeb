@@ -1,0 +1,44 @@
+#knebworth {
+    position:absolute;
+    font-family:Arial;
+    color:white;
+    font-size:200px;
+    left:370px;
+    top:250px;
+    translate:(-50%);
+    font-weight:800;
+    z-index:10;
+    user-select:none;
+}
+#ex1 {
+    position:absolute;
+    font-family:Arial;
+    color:white;
+    font-size:50px;
+    left:52%;
+    top:50%;
+    translate:(-50%,-50%);
+    font-weight:600;
+    z-index:10;
+    user-select:none;
+}
+#bg1{
+    position:absolute;
+    left:0px;
+    top:0px;
+    filter:brightness(40%);
+    width:130%;
+    user-select:none;
+}
+#manchester {
+    position:absolute;
+    font-family:Arial;
+    color:white;
+    font-size:200px;
+    left:330px;
+    top:250px;
+    translate:(-50%);
+    font-weight:800;
+    z-index:10;
+    user-select:none;
+}

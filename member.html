@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial scale =1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie-edge">
+        <link rel="stylesheet" type="text/css" href="member.css">
+        <link href='https://fonts.googleapis.com/css?family=Roboto:400,100' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700' rel='stylesheet' type='text/css'>
+        <link href="https://netdna.bootstrapcdn.com/font-awesome/3.1.1/css/font-awesome.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name = "introduction" content = "no-reference">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.8/fullpage.min.css" integrity="sha256-+dIh4jG2jQTHZwW81yUo8h6tzXWcNumyNL5XPZbwp1E=" crossorigin="anonymous" />
+        <title>OASIS | MEMBER</title>
+    </head>
+
+    
+    <body>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.8/fullpage.min.js" integrity="sha256-caNcSA0LvOCX90PTuEbwl+V09xPMca13CJUasl+VCtk=" crossorigin="anonymous"></script>
+        <div id = "fullpage">
+        <div class = "section">
+            
+
+            
+
+            <div id = "blackback">
+                
+            </div>
+
+            <div id = "noelname">
+                Noel Gallagher
+            </div>
+
+            <div id = "noelpos">
+                노엘 갤러거는 오아시스의 히트곡의 80% 이상을 작곡한 장본인이다.
+                노엘의 작곡 방식은 매우 단순하지만, 대중에게 먹혀들었고, 그 결과 오아시스가 급부상할 수 있었다.
+                노엘은 과거 오아시스의 전신이였던 "레인"에 들어오라는 요청을 동생인 리암 갤러거에게 받게 된다.
+                그는 과거 인디 락밴드 인스파이럴 카펫츠의 투어 매니저 직을 맏고 있었고, 노엘도 매니저 직을 맏고 싶어 했지만
+                그의 동생과의 친분과 레인 멤버들의 간곡한 요청에 따라 리드 기타 포지션을 맏게 되었다.
+                그는 어릴 적 밴드 "더 스미스"의 기타리스트 "조니 마"의 음악을 들으면서 그의 음악적 개념을 확립해 나갔으며
+                그의 첫 데모였던 "Live Forever"는 그의 음악적 재능을 증명하기 충분했다. 
+                그는 오아시스가 해체한 2008년 이후 "노엘 갤러거의 하이 플라잉 버즈"를 결성해 활동하고 있다.
+            </div>
+
+            <video autoplay muted loop id = "noelvid">
+                <source src="data/noel.mp4">
+            </video>
+
+        </div>
+
+        <div class = "section">
+
+            <div id = "liamname">
+                Liam Gallagher
+            </div>
+
+            <div id = "liampos">
+                리암 갤러거는 어려서부터 청소년 까지 축구를 좋아하는 일반적인 아이였다. 
+                하지만 그가 패싸움을 하면서 머리에 망치를 맞고, 그 이후부터 그의 음악 세계가
+                시작되었다. 그는 그의 청아한 보컬 실력을 인정받고, 레인이라는 소규모 밴드 활동을 시작한다.
+                노엘을 영입하고, 그는 앨런 맥기 (크리에이션 레코즈 이사)에 의해 우연히 발굴되어 오아시스로 세계에 데뷔한다.
+                하지만 그의 양아치 기질은 버릴 수 없었다. 그는 무대를 술취한 상태로 올라가 난장판을 만들기도 하였고, 요트에서 
+                싸움에 연루되기도 한다. 이러한 사건 사고는 오아시스를 더욱 유명하게 만들었고, 팬들은 이에 더욱 열광하였다.
+                그는 시간이 지나며 목상태가 급격히 나빠졌고, 노엘의 기타를 부수는 등의 만행을 저질렀고, 노엘과 남남이 되며 오아시스가 2009년 해체한다.
+                오아시스에 남아있던 멤버들과 함께 그는 "비디 아이"라는 계승격 밴드를 결성하고 활동하다 현재 솔로 활동을 이어나가는 중이다.
+            </div>
+
+            <video autoplay muted loop id = "liamvid">
+                <source src="data/columbia.mp4">
+            </video>
+        </div>
+
+        <div class = "section">
+                <image src = "data/bandpic.jpg" id = "bandpic"></image>
+
+                <div id = "blackback2">
+
+                </div>
+                <a href = "https://www.oasisinet.com/#!/band" target = "_blank">
+                    <div id = "elsetitle">
+                        other members
+                    </div>
+                </a>
+                
+                <image src = "data/membertime.png" id = "elsepos">
+
+
+            
+        </div>
+        <a href = "main.html">
+            <div id = "goback">
+                back to main...
+            </div>
+        </a>
+        
+    </div>
+        <!--자바스크립트 자리입니다.-->
+        <script>
+            var myFullpage = new fullpage('#fullpage', {
+                //Navigation
+                menu: '#menu',
+                lockAnchors: false,
+                anchors:['main', 'timeline', 'member', 'gigs'],
+                navigation: false,
+                navigationPosition: 'rights',
+                navigationTooltips: ['Main Page', 'Timeline', 'Member', 'Gigs', 'Trivia'],
+                showActiveTooltip: true,
+                slidesNavigation: true,
+                slidesNavPosition: 'bottom',
+
+                //Scrolling
+                css3: true,
+                scrollingSpeed: 700,
+                autoScrolling: true,
+                fitToSection: true,
+                fitToSectionDelay: 1000,
+                scrollBar: false,
+                easing: 'easeInOutCubic',
+                easingcss3: 'ease',
+                loopBottom: false,
+                loopTop: false,
+                loopHorizontal: false,
+                continuousVertical: false,
+                continuousHorizontal: false,
+                scrollHorizontally: false,
+                interlockedSlides: false,
+                dragAndMove: false,
+                offsetSections: false,
+                resetSliders: false,
+                fadingEffect: true,
+                normalScrollElements: '#element1, .element2',
+                scrollOverflow: false,
+                scrollOverflowReset: false,
+                scrollOverflowOptions: null,
+                touchSensitivity: 15,
+                bigSectionsDestination: null,
+
+                //Accessibility
+                keyboardScrolling: true,
+                animateAnchor: true,
+                recordHistory: true,
+
+                //Design
+                controlArrows: true,
+                verticalCentered: true,
+                sectionsColor : ['#ccc', '#fff'],
+                paddingTop: '3em',
+                paddingBottom: '10px',
+                fixedElements: '#header, .footer',
+                responsiveWidth: 0,
+                responsiveHeight: 0,
+                responsiveSlides: false,
+                parallax: false,
+                parallaxOptions: {type: 'reveal', percentage: 62, property: 'translate'},
+                cards: false,
+                cardsOptions: {perspective: 100, fadeContent: true, fadeBackground: true},
+
+                //Custom selectors
+                sectionSelector: '.section',
+                slideSelector: '.slide',
+
+                lazyLoading: true,
+
+                //events
+                onLeave: function(origin, destination, direction){},
+                afterLoad: function(origin, destination, direction){},
+                afterRender: function(){},
+                afterResize: function(width, height){},
+                afterReBuild: function(){},
+                afterResponsive: function(isResponsive){},
+                afterSlideLoad: function(section, origin, destination, direction){},
+                onSlideLeave: function(section, origin, destination, direction){}
+            });
+        </script>
+    </body>
+</html>
